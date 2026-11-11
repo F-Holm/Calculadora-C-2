@@ -1,0 +1,18 @@
+> 22
+> 30
+> 0
+> 2.3
+> 7.6
+> 3.3
+> 3.3
+> 3.3
+> Error léxico: cadena desconocida: @@#;@
+> 13.25
+> 0.00237
+> Error léxico: constante inválida: 12a3
+> Error léxico: identificador inválido: a#2.4
+> Error léxico REAL inválido: 2.3.4a2.3
+> syntax error, unexpected '*', expecting NUM or ID or '-' or '('
+> 16
+> 2.125
+>
