@@ -1,6 +1,6 @@
 # Documentación del TP3: calculadora con flex + bison
 
-Este documento explica en detalle cómo está construida la calculadora y por qué se tomó cada decisión. Los fuentes también tienen comentarios donde hace falta, salvo `scanner.l` y `parser.y`, que se explican completos en las secciones 3 y 4. Acá está la visión de conjunto.
+Este documento explica en detalle cómo está construida la calculadora y por qué se tomó cada decisión. Los fuentes no tienen comentarios, así que todo lo que hace falta saber está en este documento.
 
 Índice:
 
