@@ -1,0 +1,24 @@
+# .gitignore — Archivos que git no debe versionar.
+#
+# Sólo se suben los fuentes escritos a mano. Todo lo que se puede regenerar
+# con `make` queda afuera: si se versionara, cada compilación ensuciaría el
+# repositorio y podría quedar desfasado respecto de scanner.l / parser.y.
+
+# Carpeta de compilación: el makefile pone ahí todo lo generado (fuentes de
+# flex y bison, archivos objeto y el ejecutable calc).
+build/
+
+# Por si alguien compila a mano fuera de build/.
+*.o
+*.output
+
+# Los ejemplos de la cátedra (ejemplos/entrada.txt, salida.txt y
+# ejecución.txt) SÍ se versionan. La salida obtenida al correr `make test`
+# va a build/, que ya está ignorado arriba.
+
+# Archivos temporales de editores y del sistema.
+*~
+*.swp
+.vscode/
+.idea/
+.DS_Store
